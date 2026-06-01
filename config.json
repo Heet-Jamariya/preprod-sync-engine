@@ -1,0 +1,14 @@
+{
+  "patches": [
+    {
+      "table": "notification_users",
+      "set": { "is_deleted": true },
+      "where": ""
+    },
+    {
+      "table": "notification_subscriber",
+      "set": { "is_deleted": true },
+      "where": ""
+    }
+  ]
+}
